@@ -204,9 +204,11 @@
     <Content Include="Images\banner3.svg" />
     <Content Include="Images\banner4.svg" />
     <Content Include="Images\bible-2158645_1280.jpg" />
+    <Content Include="Images\books-1867168_1920.jpg" />
     <Content Include="Images\buying-15810_1920.jpg" />
     <Content Include="Images\ecommerce-2140604_1920.jpg" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\pencil-1486278_1920.jpg" />
     <Content Include="Images\shop-2107901_1920.png" />
     <Content Include="Images\startup-2188681_1920.jpg" />
     <Content Include="Scripts\angular-animate.js" />
