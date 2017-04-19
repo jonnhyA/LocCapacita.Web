@@ -101,12 +101,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\AcssoSite.cs" />
+    <Compile Include="Entities\AgndCapct.cs" />
+    <Compile Include="Entities\Assunto.cs" />
+    <Compile Include="Entities\AssuntoAvalc.cs" />
+    <Compile Include="Entities\Avalc.cs" />
+    <Compile Include="Entities\AvalcPrfl.cs" />
+    <Compile Include="Entities\Busca.cs" />
+    <Compile Include="Entities\Capct.cs" />
+    <Compile Include="Entities\Contato.cs" />
+    <Compile Include="Entities\DetlheCapct.cs" />
+    <Compile Include="Entities\Empresa.cs" />
+    <Compile Include="Entities\Pessoa.cs" />
+    <Compile Include="Entities\Prfl.cs" />
+    <Compile Include="Entities\PrflInscrito.cs" />
+    <Compile Include="Entities\PrflInstrutorPrfl.cs" />
+    <Compile Include="Entities\PrflTagsCompt.cs" />
+    <Compile Include="Entities\Representante.cs" />
+    <Compile Include="Entities\sysdiagram.cs" />
+    <Compile Include="Entities\TagsCompt.cs" />
+    <Compile Include="Entities\TpoCtto.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

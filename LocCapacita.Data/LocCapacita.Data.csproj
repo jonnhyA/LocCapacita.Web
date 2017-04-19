@@ -49,11 +49,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\Context.cs" />
+    <Compile Include="Interface\IUnitOfWork.cs" />
+    <Compile Include="Mapping\AcssoSiteMap.cs" />
+    <Compile Include="Mapping\AgndCapctMap.cs" />
+    <Compile Include="Mapping\AssuntoAvalcMap.cs" />
+    <Compile Include="Mapping\AssuntoMap.cs" />
+    <Compile Include="Mapping\AvalcMap.cs" />
+    <Compile Include="Mapping\AvalcPrflMap.cs" />
+    <Compile Include="Mapping\BuscaMap.cs" />
+    <Compile Include="Mapping\CapctMap.cs" />
+    <Compile Include="Mapping\ContatoMap.cs" />
+    <Compile Include="Mapping\DetlheCapctMap.cs" />
+    <Compile Include="Mapping\EmpresaMap.cs" />
+    <Compile Include="Mapping\PessoaMap.cs" />
+    <Compile Include="Mapping\PrflInscritoMap.cs" />
+    <Compile Include="Mapping\PrflInstrutorPrflMap.cs" />
+    <Compile Include="Mapping\PrflMap.cs" />
+    <Compile Include="Mapping\PrflTagsComptMap.cs" />
+    <Compile Include="Mapping\RepresentanteMap.cs" />
+    <Compile Include="Mapping\sysdiagramMap.cs" />
+    <Compile Include="Mapping\TagsComptMap.cs" />
+    <Compile Include="Mapping\TpoCttoMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\RepositoryBase.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LocCapacita.Domain\LocCapacita.Domain.csproj">
+      <Project>{91c58c23-8bd8-468d-99f5-867b8cd13ee2}</Project>
+      <Name>LocCapacita.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
