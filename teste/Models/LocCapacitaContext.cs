@@ -27,7 +27,6 @@ namespace teste.Models
         public DbSet<Contato> Contatoes { get; set; }
         public DbSet<DetlheCapct> DetlheCapcts { get; set; }
         public DbSet<Empresa> Empresas { get; set; }
-        public DbSet<Pessoa> Pessoas { get; set; }
         public DbSet<Prfl> Prfls { get; set; }
         public DbSet<PrflInscrito> PrflInscritoes { get; set; }
         public DbSet<PrflInstrutorPrfl> PrflInstrutorPrfls { get; set; }
@@ -36,6 +35,7 @@ namespace teste.Models
         public DbSet<sysdiagram> sysdiagrams { get; set; }
         public DbSet<TagsCompt> TagsCompts { get; set; }
         public DbSet<TpoCtto> TpoCttoes { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -50,7 +50,6 @@ namespace teste.Models
             modelBuilder.Configurations.Add(new ContatoMap());
             modelBuilder.Configurations.Add(new DetlheCapctMap());
             modelBuilder.Configurations.Add(new EmpresaMap());
-            modelBuilder.Configurations.Add(new PessoaMap());
             modelBuilder.Configurations.Add(new PrflMap());
             modelBuilder.Configurations.Add(new PrflInscritoMap());
             modelBuilder.Configurations.Add(new PrflInstrutorPrflMap());
@@ -59,6 +58,7 @@ namespace teste.Models
             modelBuilder.Configurations.Add(new sysdiagramMap());
             modelBuilder.Configurations.Add(new TagsComptMap());
             modelBuilder.Configurations.Add(new TpoCttoMap());
+            modelBuilder.Configurations.Add(new UsuarioMap());
         }
     }
 }

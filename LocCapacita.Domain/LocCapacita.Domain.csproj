@@ -112,7 +112,6 @@
     <Compile Include="Entities\Contato.cs" />
     <Compile Include="Entities\DetlheCapct.cs" />
     <Compile Include="Entities\Empresa.cs" />
-    <Compile Include="Entities\Pessoa.cs" />
     <Compile Include="Entities\Prfl.cs" />
     <Compile Include="Entities\PrflInscrito.cs" />
     <Compile Include="Entities\PrflInstrutorPrfl.cs" />
@@ -121,7 +120,27 @@
     <Compile Include="Entities\sysdiagram.cs" />
     <Compile Include="Entities\TagsCompt.cs" />
     <Compile Include="Entities\TpoCtto.cs" />
+    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryAcssoSite.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryAgndCapct.cs" />
     <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryDetlheCapct.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryAssunto.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryAssuntoAvalc.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryAvalc.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryAvalcPrfl.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBusca.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryCapct.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryContato.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryEmpresa.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryPrfl.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryPrflInscrito.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryPrflInstrutorPrfl.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryPrflTagsCompt.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryRepresentante.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryTagsCompt.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryTpoCtto.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

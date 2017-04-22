@@ -1,12 +1,11 @@
-using LocCapacita.Domain.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
-namespace LocCapacita.Data.Mapping
+namespace teste.Models.Mapping
 {
-    public class PessoaMap : EntityTypeConfiguration<Pessoa>
+    public class UsuarioMap : EntityTypeConfiguration<Usuario>
     {
-        public PessoaMap()
+        public UsuarioMap()
         {
             // Primary Key
             this.HasKey(t => t.IdPessoa);
@@ -32,7 +31,7 @@ namespace LocCapacita.Data.Mapping
                 .HasMaxLength(250);
 
             // Table & Column Mappings
-            this.ToTable("Pessoa");
+            this.ToTable("Usuario");
             this.Property(t => t.IdPessoa).HasColumnName("IdPessoa");
             this.Property(t => t.Nome).HasColumnName("Nome");
             this.Property(t => t.SobreNome).HasColumnName("SobreNome");
@@ -43,7 +42,7 @@ namespace LocCapacita.Data.Mapping
 
             // Relationships
             this.HasRequired(t => t.Prfl)
-                .WithMany(t => t.Pessoas)
+                .WithMany(t => t.Usuarios)
                 .HasForeignKey(d => d.IdPrfl);
 
         }

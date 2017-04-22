@@ -62,7 +62,6 @@
     <Compile Include="Mapping\ContatoMap.cs" />
     <Compile Include="Mapping\DetlheCapctMap.cs" />
     <Compile Include="Mapping\EmpresaMap.cs" />
-    <Compile Include="Mapping\PessoaMap.cs" />
     <Compile Include="Mapping\PrflInscritoMap.cs" />
     <Compile Include="Mapping\PrflInstrutorPrflMap.cs" />
     <Compile Include="Mapping\PrflMap.cs" />
@@ -71,6 +70,7 @@
     <Compile Include="Mapping\sysdiagramMap.cs" />
     <Compile Include="Mapping\TagsComptMap.cs" />
     <Compile Include="Mapping\TpoCttoMap.cs" />
+    <Compile Include="Mapping\UsuarioMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\RepositoryBase.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />

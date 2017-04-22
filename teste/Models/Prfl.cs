@@ -15,7 +15,7 @@ namespace teste.Models
             this.Contatoes = new List<Contato>();
             this.DetlheCapcts = new List<DetlheCapct>();
             this.Empresas = new List<Empresa>();
-            this.Pessoas = new List<Pessoa>();
+            this.Usuarios = new List<Usuario>();
             this.PrflInscritoes = new List<PrflInscrito>();
             this.PrflInstrutorPrfls = new List<PrflInstrutorPrfl>();
             this.PrflInstrutorPrfls1 = new List<PrflInstrutorPrfl>();
@@ -38,7 +38,7 @@ namespace teste.Models
         public virtual ICollection<Contato> Contatoes { get; set; }
         public virtual ICollection<DetlheCapct> DetlheCapcts { get; set; }
         public virtual ICollection<Empresa> Empresas { get; set; }
-        public virtual ICollection<Pessoa> Pessoas { get; set; }
+        public virtual ICollection<Usuario> Usuarios { get; set; }
         public virtual ICollection<PrflInscrito> PrflInscritoes { get; set; }
         public virtual ICollection<PrflInstrutorPrfl> PrflInstrutorPrfls { get; set; }
         public virtual ICollection<PrflInstrutorPrfl> PrflInstrutorPrfls1 { get; set; }

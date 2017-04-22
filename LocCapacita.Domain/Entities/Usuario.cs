@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LocCapacita.Domain.Models
 {
-    public partial class Pessoa
+    public partial class Usuario
     {
         public int IdPessoa { get; set; }
         public string Nome { get; set; }
