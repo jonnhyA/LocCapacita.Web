@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LocCapacita.Domain.Interfaces.Repositories
 {
-    interface IRepositoryAssuntoAvalc : IRepositoryBase<AssuntoAvalc>
+   public interface IRepositoryAssuntoAvalc : IRepositoryBase<AssuntoAvalc>
     {
     }
 }
