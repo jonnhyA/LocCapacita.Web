@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace LocCapacita.Domain.Models
+namespace LocCapacita.Domain.Entities
 {
     public partial class AvalcPrfl
     {

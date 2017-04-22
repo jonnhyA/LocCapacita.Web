@@ -72,6 +72,26 @@
     <Compile Include="Mapping\TpoCttoMap.cs" />
     <Compile Include="Mapping\UsuarioMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IIRepositoryAvalc.cs" />
+    <Compile Include="Repository\RepositoryAcssoSite.cs" />
+    <Compile Include="Repository\RepositoryAgndCapct.cs" />
+    <Compile Include="Repository\RepositoryAssunto.cs" />
+    <Compile Include="Repository\RepositoryAssuntoAvalc.cs" />
+    <Compile Include="Repository\RepositoryAvalc.cs" />
+    <Compile Include="Repository\RepositoryAvalcPrfl.cs" />
+    <Compile Include="Repository\RepositoryBusca.cs" />
+    <Compile Include="Repository\RepositoryCapct.cs" />
+    <Compile Include="Repository\RepositoryContato.cs" />
+    <Compile Include="Repository\RepositoryDetlheCapct.cs" />
+    <Compile Include="Repository\RepositoryEmpresa.cs" />
+    <Compile Include="Repository\RepositoryPrfl.cs" />
+    <Compile Include="Repository\RepositoryPrflInscrito.cs" />
+    <Compile Include="Repository\RepositoryPrflInstrutorPrfl.cs" />
+    <Compile Include="Repository\RepositoryPrflTagsCompt.cs" />
+    <Compile Include="Repository\RepositoryRepresentante.cs" />
+    <Compile Include="Repository\RepositoryTagsCompt.cs" />
+    <Compile Include="Repository\RepositoryTpoCtto.cs" />
+    <Compile Include="Repository\RepositoryUsuario.cs" />
     <Compile Include="Repository\RepositoryBase.cs" />
     <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
