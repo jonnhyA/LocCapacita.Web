@@ -162,6 +162,25 @@
     <Compile Include="Interfaces\Services\ITpoCttoService.cs" />
     <Compile Include="Interfaces\Services\IUsuarioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\AcssoSiteService.cs" />
+    <Compile Include="Service\AgndCapctService.cs" />
+    <Compile Include="Service\AssuntoAvalcService.cs" />
+    <Compile Include="Service\AssuntoService.cs" />
+    <Compile Include="Service\AvalcPrflService.cs" />
+    <Compile Include="Service\AvalcService.cs" />
+    <Compile Include="Service\BuscaService.cs" />
+    <Compile Include="Service\CapctService.cs" />
+    <Compile Include="Service\ContatoService.cs" />
+    <Compile Include="Service\DetlheCapctService.cs" />
+    <Compile Include="Service\EmpresaService.cs" />
+    <Compile Include="Service\PrflInscritoService.cs" />
+    <Compile Include="Service\IPrflInstrutorPrflService.cs" />
+    <Compile Include="Service\IPrflService.cs" />
+    <Compile Include="Service\IPrflTagsComptService.cs" />
+    <Compile Include="Service\IRepresentanteService.cs" />
+    <Compile Include="Service\ITagsComptService.cs" />
+    <Compile Include="Service\ITpoCttoService.cs" />
+    <Compile Include="Service\IUsuarioService.cs" />
     <Compile Include="Service\ServiceBase.cs" />
   </ItemGroup>
   <ItemGroup>
