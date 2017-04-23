@@ -50,6 +50,20 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LocCapacita.Application\LocCapacita.Application.csproj">
+      <Project>{8baef735-9e8e-4423-81bc-a5923f479722}</Project>
+      <Name>LocCapacita.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LocCapacita.Data\LocCapacita.Data.csproj">
+      <Project>{119b70a8-5350-4fa7-be8f-1bc084671519}</Project>
+      <Name>LocCapacita.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LocCapacita.Domain\LocCapacita.Domain.csproj">
+      <Project>{91c58c23-8bd8-468d-99f5-867b8cd13ee2}</Project>
+      <Name>LocCapacita.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -72,7 +72,6 @@
     <Compile Include="Mapping\TpoCttoMap.cs" />
     <Compile Include="Mapping\UsuarioMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\IIRepositoryAvalc.cs" />
     <Compile Include="Repository\RepositoryAcssoSite.cs" />
     <Compile Include="Repository\RepositoryAgndCapct.cs" />
     <Compile Include="Repository\RepositoryAssunto.cs" />

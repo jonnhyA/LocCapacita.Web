@@ -141,7 +141,28 @@
     <Compile Include="Interfaces\Repositories\IRepositoryTagsCompt.cs" />
     <Compile Include="Interfaces\Repositories\IRepositoryTpoCtto.cs" />
     <Compile Include="Interfaces\Repositories\IRepositoryUsuario.cs" />
+    <Compile Include="Interfaces\Services\IAcssoSiteService.cs" />
+    <Compile Include="Interfaces\Services\IAgndCapctService.cs" />
+    <Compile Include="Interfaces\Services\IAssuntoService.cs" />
+    <Compile Include="Interfaces\Services\IAssuntoAvalcService.cs" />
+    <Compile Include="Interfaces\Services\IAvalcService.cs" />
+    <Compile Include="Interfaces\Services\IAvalcPrflService.cs" />
+    <Compile Include="Interfaces\Services\IBuscaService.cs" />
+    <Compile Include="Interfaces\Services\ICapctService.cs" />
+    <Compile Include="Interfaces\Services\IContatoService.cs" />
+    <Compile Include="Interfaces\Services\IDetlheCapctService.cs" />
+    <Compile Include="Interfaces\Services\IEmpresaService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Services\IPrflService.cs" />
+    <Compile Include="Interfaces\Services\IPrflInscritoService.cs" />
+    <Compile Include="Interfaces\Services\IPrflInstrutorPrflService.cs" />
+    <Compile Include="Interfaces\Services\IPrflTagsComptService.cs" />
+    <Compile Include="Interfaces\Services\IRepresentanteService.cs" />
+    <Compile Include="Interfaces\Services\ITagsComptService.cs" />
+    <Compile Include="Interfaces\Services\ITpoCttoService.cs" />
+    <Compile Include="Interfaces\Services\IUsuarioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ServiceBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
