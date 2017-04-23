@@ -1,4 +1,6 @@
 ﻿
+using LocCapacita.Domain.Entities;
+using LocCapacita.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LocCapacita.Data.Repository
 {
-   public interface IRepositoryRepresentante: IRepositoryBase<Representante>
+   public class RepositoryRepresentante: RepositoryBase<Representante>, IRepositoryRepresentante
     {
     }
 }

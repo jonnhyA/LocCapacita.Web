@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LocCapacita.Data.Repository
 {
-    public interface RepositoryPrfl : RepositoryBase<Prfl>, IRepositoryPrfl
+    public class RepositoryPrfl : RepositoryBase<Prfl>, IRepositoryPrfl
     {
     }
 }
